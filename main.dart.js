@@ -74662,12 +74662,12 @@ a.y=a.y+(3.5+s.az()*2)
 a.z=a.z+(s.az()-0.5)*4
 a.as=0
 if(d)this.kF("knock_loose.wav")},
-a7R(e3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0=this,e1=t.S,e2=A.r(e1,e1)
-for(e1=e0.F,s=e1.length,r=0;q=e1.length,r<q;e1.length===s||(0,A.t)(e1),++r){q=e1[r].ax
-if(q!=null){p=e2.i(0,q)
-e2.n(0,q,(p==null?0:p)+1)}}for(s=e0.ai,p=s.f,o=p.length,n=e0.a8,m=n.d,l=o===0,k=s.e,s=n.b,n=n.a,j=e0.cR,i=t.H,r=0;r<e1.length;e1.length===q||(0,A.t)(e1),++r){h=e1[r]
-if(h.ax!=null||e0.fV)continue
-for(g=h.f,f=0.052+g*1.14,e=-g,d=e*0.24,e*=0.95,c=g*0.95,b=g*0.58,a=f*1.55,a0=f*1.58,a1=f*1.34,a2=f*1.62,a3=1-g,a4=0;a4<o;++a4){a5=p[a4]
+a7R(e2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9=this,e0=t.S,e1=A.r(e0,e0)
+for(e0=d9.F,s=e0.length,r=0;q=e0.length,r<q;e0.length===s||(0,A.t)(e0),++r){q=e0[r].ax
+if(q!=null){p=e1.i(0,q)
+e1.n(0,q,(p==null?0:p)+1)}}for(s=d9.ai,p=s.f,o=p.length,n=d9.a8,m=n.d,l=o===0,k=s.e,s=n.b,n=n.a,j=d9.cR,i=t.H,r=0;r<e0.length;e0.length===q||(0,A.t)(e0),++r){h=e0[r]
+if(h.ax!=null||d9.fV)continue
+for(g=h.f,f=0.052+g*1.14,e=-g,d=e*1.05,e*=1.35,c=g*1.35,b=g*1.22,a=f*1.55,a0=f*1.58,a1=f*1.34,a2=f*1.62,a3=1-g,a4=0;a4<o;++a4){a5=p[a4]
 a6=a5.a
 a7=h.b.a-a6
 a8=a5.c
@@ -74677,10 +74677,10 @@ b1=Math.sqrt(a7*a7+b0*b0)
 b2=h.b.b-(a5.b-a5.d)
 b3=b2>e&&b2<c
 b4=b2>d&&b2<b
-b5=e2.i(0,a4)
+b5=e1.i(0,a4)
 if(b5==null)b5=0
 b6=l?1:o
-b7=e1.length
+b7=e0.length
 if(b7===0)b7=k
 b8=B.i.pv(b7,b6)
 b9=b8+(a4<B.i.aB(b7,b6)?1:0)
@@ -74691,56 +74691,27 @@ c3=Math.abs(a7)
 c4=c3<c1
 c5=Math.abs(a9)
 c6=c5<c2
-c7=c4&&c6
-c8=!1
-if(b3)if(b1<a){if(!c7)c9=c3>c1*0.82||c5>c2*0.82
-else c9=c8
-c8=c9}if(b3&&!c8&&h.c.b>-0.22&&b1<a0&&Math.abs(b0)<a1&&h.Q<=0){d0=B.c.a7(1-b1/a2,0,1)
-c9=h.b
-d1=h.c
-h.c=new A.h(d1.a+(a6-c9.a)*d0*0.048,d1.b+0*d0*0.048)
-h.e=h.e+(a8-h.d)*d0*0.06}c9=h.c
-d1=c9.a
-c9=c9.b
-c9=Math.sqrt(d1*d1+c9*c9)
-d1=h.e
-d2=h.c
-d3=d2.b
-d4=m?3.65:3.25
-if(b3&&c4&&!c6&&c5>c2*1.7&&h.Q<=0){d5=a9>=0?1:-1
-h.e=d1+d5*0.12
-d2=h.c=new A.h(d2.a+J.dC(h.b.a-a6)*0.035,d3+0.045)
-h.z=h.z+d5*1.4
-h.Q=0.24
-h.as=0}if(c8&&h.Q<=0){if(c3>=c5*0.58)d6=a7>=0?1:-1
-else d6=0
-d7=a7===0?d6:J.dC(a7)
-d5=a9>=0?1:-1
-a6=h.b
-h.b=new A.h(a6.a+d7*0.006,a6.b+0.003)
-h.d=B.c.a7(h.d+d5*0.01,g,a3)
-a6=h.c
-h.c=new A.h(a6.a+(d6*0.11+d7*0.045),a6.b+0.075)
-h.e=h.e+d5*0.18
-a6=h.y
-h.y=a6+(d6===0?d5:d6)*1.6
-h.z=h.z+d5*2.2
-h.Q=0.34
-h.as=0
-continue}if(b4&&c7&&!c0&&h.Q<=0){d6=h.b.a>=a6?1:-1
-d5=h.d>=a8?1:-1
-h.c=new A.h(d2.a+0.1*d6,d2.b+0.09)
-h.e=h.e+0.11*d5
-h.y=h.y+0.9*d6
-h.z=h.z+1.4*-d6
-h.Q=0.36
-h.as=0
-if(s)A.nd()}if(b4&&c7&&c0&&d3>0.02&&c9+Math.abs(d1)<d4){h.ax=a4
+c7=m?1.42:1.28
+c8=m?1.34:1.2
+c9=m?1.34:1.18
+if(!(c4&&c6))d0=b1<f*c7&&c3<f*c8&&Math.abs(b0)<f*c9
+else d0=!0
+d1=!1
+if(b3)if(b1<a){if(!d0)c7=c3>c1*0.82||c5>c2*0.82
+else c7=d1
+d1=c7}if(b3&&!d1&&h.c.b>-0.22&&b1<a0&&Math.abs(b0)<a1&&h.Q<=0){d2=B.c.a7(1-b1/a2,0,1)
+c7=h.b
+c8=h.c
+h.c=new A.h(c8.a+(a6-c7.a)*d2*0.048,c8.b+0*d2*0.048)
+h.e=h.e+(a8-h.d)*d2*0.06}c7=h.c
+c8=c7.b
+d3=c8>-0.1
+if(b4&&d0&&c0&&d3){h.ax=a4
 h.at=b5
-d8=e0.Ll(a5,b5,g)
-e=d8.a
+d4=d9.Ll(a5,b5,g)
+e=d4.a
 h.b=e
-d=d8.b
+d=d4.b
 h.d=d
 h.c=B.k
 h.e=0
@@ -74748,13 +74719,41 @@ h.r=(j.az()-0.5)*0.04
 h.w=1.5+(j.az()-0.5)*0.025
 h.x=(j.az()-0.5)*0.018
 h.as=h.z=h.y=0
-e0.Zg(e0.fP(e,d,e3),h.ay)
-d9=e0.r8<=0
-if(s&&d9){A.nd()
+d9.Zg(d9.fP(e,d,e2),h.ay)
+d5=d9.r8<=0
+if(s&&d5){A.nd()
 A.w_(B.Dw,A.aGT(),i)
-e0.r8=0.1}if(n&&d9)e0.kF("catch_chime.wav")
-e2.n(0,a4,b5+1)
-break}}}},
+d9.r8=0.1}if(n&&d5)d9.kF("catch_chime.wav")
+e1.n(0,a4,b5+1)
+break}if(b3&&c4&&!c6&&c5>c2*1.7&&h.Q<=0){d6=a9>=0?1:-1
+h.e=h.e+d6*0.12
+c7=h.c=new A.h(c7.a+J.dC(h.b.a-a6)*0.035,c8+0.045)
+h.z=h.z+d6*1.4
+h.Q=0.24
+h.as=0}if(d1&&h.Q<=0){if(c3>=c5*0.58)d7=a7>=0?1:-1
+else d7=0
+d8=a7===0?d7:J.dC(a7)
+d6=a9>=0?1:-1
+a6=h.b
+h.b=new A.h(a6.a+d8*0.006,a6.b+0.003)
+h.d=B.c.a7(h.d+d6*0.01,g,a3)
+a6=h.c
+h.c=new A.h(a6.a+(d7*0.11+d8*0.045),a6.b+0.075)
+h.e=h.e+d6*0.18
+a6=h.y
+h.y=a6+(d7===0?d6:d7)*1.6
+h.z=h.z+d6*2.2
+h.Q=0.34
+h.as=0
+continue}if(b4&&d0&&!c0&&h.Q<=0){d7=h.b.a>=a6?1:-1
+d6=h.d>=a8?1:-1
+h.c=new A.h(c7.a+0.1*d7,c7.b+0.09)
+h.e=h.e+0.11*d6
+h.y=h.y+0.9*d7
+h.z=h.z+1.4*-d7
+h.Q=0.36
+h.as=0
+if(s)A.nd()}}}},
 Ng(a,b){var s,r,q,p,o,n,m,l,k
 for(s=this.eR,r=s.length,q=-0.1*a,p=0;p<r;++p){o=s[p]
 n=o.a
